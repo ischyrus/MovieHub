@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[http]
+	postBuffer = 52428800
+[user]
+	name = 'Steven
+	email = appharbor@ischyrus.com
+[remote "appharbor"]
+	url = https://ischyrus@appharbor.com/moviehub.git
+	fetch = +refs/heads/*:refs/remotes/appharbor/*
+[remote "origin"]
+	url = git@github.com:ischyrus/MovieHub.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
